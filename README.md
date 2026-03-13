@@ -12,24 +12,17 @@ Build a Named Entity Recognition (NER) model that can automatically identify and
 
 Import necessary libraries and set up the device (CPU or GPU).
 
-
 ### STEP 2: 
 
 Load the NER dataset and fill missing values.
-
-
 
 ### STEP 3: 
 
 Create word and tag dictionaries for encoding.
 
-
-
 ### STEP 4: 
 
-
 Group words into sentences and encode them into numbers.
-
 
 ### STEP 5: 
 
@@ -42,8 +35,6 @@ Train the model using the training data.
 ### STEP 7
 
 Evaluate the model performance on test data.
-
-
 
 ## PROGRAM
 
@@ -66,9 +57,6 @@ class BiLSTMTagger(nn.Module):
        x=self.dropout(x)
        x,_=self.lstm(x)
        x=self.fc(x)
-
-
-
 
 model =BiLSTMTagger(len(word2idx)+1,len(tag2idx)).to(device)
 loss_fn =nn.CrossEntropyLoss()
