@@ -109,6 +109,7 @@ def train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=3):
 ### Sample Text Prediction
 
 
+
 ## RESULT
 The BiLSTM NER model achieved good accuracy in identifying entities like persons, locations, and organizations. It showed strong performance on frequent tags, with scope for improvement on rarer ones.
 
