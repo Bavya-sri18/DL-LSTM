@@ -100,6 +100,7 @@ return train_losses, val_losses
 
 ### Sample Text Prediction
 
+![Text Prediction](https://github.com/swetha-1807/DL-LSTM/blob/main/Screenshot%202026-03-13%20204538.png)
 
 ## RESULT
 The BiLSTM NER model achieved good accuracy in identifying entities like persons, locations, and organizations. It showed strong performance on frequent tags, with scope for improvement on rarer ones.
