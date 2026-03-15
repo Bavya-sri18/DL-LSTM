@@ -96,7 +96,7 @@ return train_losses, val_losses
 
 ## Loss Vs Epoch Plot
 
-
+![Loss vs Epoch Plot](https://github.com/swetha-1807/DL-LSTM/blob/main/Screenshot%202026-03-13%20204528.png)
 
 ### Sample Text Prediction
 
