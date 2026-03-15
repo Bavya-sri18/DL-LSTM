@@ -5,7 +5,7 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
 
-
+![DL6](https://github.com/Bavya-sri18/DL-LSTM/blob/main/DL6-3.png?raw=true)
 
 ## DESIGN STEPS
 ### STEP 1: 
@@ -104,11 +104,11 @@ def train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=3):
 
 ## Loss Vs Epoch Plot
 
-
+![DL6](https://github.com/Bavya-sri18/DL-LSTM/blob/main/DL6-2.png?raw=true)
 
 ### Sample Text Prediction
 
-
+![DL](https://github.com/Bavya-sri18/DL-LSTM/blob/main/DL6-1.png?raw=true)
 
 ## RESULT
 The BiLSTM NER model achieved good accuracy in identifying entities like persons, locations, and organizations. It showed strong performance on frequent tags, with scope for improvement on rarer ones.
