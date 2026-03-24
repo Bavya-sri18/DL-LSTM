@@ -4,6 +4,7 @@
 To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
+Build a Named Entity Recognition (NER) model that can automatically identify and classify entities like names of people, locations, organizations, and other important terms from text. The goal is to tag each word in a sentence with its corresponding entity label.
 
 ![DL6](https://github.com/Bavya-sri18/DL-LSTM/blob/main/DL6-3.png?raw=true)
 
@@ -113,4 +114,3 @@ def train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=3):
 ## RESULT
 The BiLSTM NER model achieved good accuracy in identifying entities like persons, locations, and organizations. It showed strong performance on frequent tags, with scope for improvement on rarer ones.
 
-The BiLSTM NER model achieved good accuracy in identifying entities like persons, locations, and organizations. It showed strong performance on frequent tags, with scope for improvement on rarer ones.
