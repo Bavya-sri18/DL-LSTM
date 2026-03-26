@@ -7,6 +7,9 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 Build a Named Entity Recognition (NER) model that can automatically identify and classify entities like names of people, locations, organizations, and other important terms from text. The goal is to tag each word in a sentence with its corresponding entity label.
 
+## THEORY 
+
+ong Short-Term Memory (LSTM) is a type of Recurrent Neural Network (RNN) designed to learn and remember long-term dependencies in sequential data. It uses memory cells and three gates—input, forget, and output gates—to control the flow of information and overcome the vanishing gradient problem. LSTM is widely used for tasks like time series prediction, text processing, and sequence modeling. In this project, LSTM helps in capturing patterns from sequential data to improve prediction accuracy.
 ## DESIGN STEPS
 ### STEP 1: 
 
