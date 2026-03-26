@@ -8,6 +8,10 @@ Build a Named Entity Recognition (NER) model that can automatically identify and
 
 ![DL6](https://github.com/Bavya-sri18/DL-LSTM/blob/main/DL6-3.png?raw=true)
 
+## THEORY 
+
+ong Short-Term Memory (LSTM) is a type of Recurrent Neural Network (RNN) designed to learn and remember long-term dependencies in sequential data. It uses memory cells and three gates—input, forget, and output gates—to control the flow of information and overcome the vanishing gradient problem. LSTM is widely used for tasks like time series prediction, text processing, and sequence modeling. In this project, LSTM helps in capturing patterns from sequential data to improve prediction accuracy.
+
 ## DESIGN STEPS
 ### STEP 1: 
 
